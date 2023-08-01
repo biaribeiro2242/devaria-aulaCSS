@@ -7,6 +7,8 @@
     
     <link rel="stylesheet" href="public/css/header.css">
     <link rel="stylesheet" href="public/css/global.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <link rel="stylesheet" href="public/css/fale-conosco.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Fale Conosco</title>
 </head>
@@ -14,7 +16,8 @@
     
     <header>
         <a href="index.html" class="link-logo">
-            <img src="public/fotos/logo-devaria.svg" alt="Logo Devaria">
+            <img src="public/fotos/logo-devaria.svg" alt="Logo Devaria"/>
+        </a>
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,31 +27,31 @@
             </ul>
         </nav>
     </header>
-    </header>
+    
     <main>
-        <h1>Fale com a Devaria</h1>
-        <h2>Para entrar em contato, preencha os campos abaixo e clique em enviar</h2>
-        <form action="index.html">
-            <p>
+        <h1 class="title text-center">Fale com a Devaria</h1>
+        <h2 class="sub-title text-center">Para entrar em contato, preencha os campos abaixo e clique em enviar</h2>
+        <form action="index.html" class="contact-form margin-horizontal-20px">
+            <div>
                 <label>Nome:</label><input type="text" name="Nome" maxlength="70">
-            </p>
+            </div>
 
-            <p>
+            <div>
                 <label>E-mail:</label><input type="text" name="email" maxlength="150">
-            </p>
+            </div>
 
-            <p>
+            <div>
                 <label>Comentários</label>
                 <textarea name="comentario" cols="50" rows="4"></textarea>
-            </p>
+            </div>
 
-            <p>
+            <div>
                 <label>Sexo:</label>
-                <input type="radio" name="Sexo"><label>Feminino</label>
-                <input type="radio" name="Sexo"><label>Masculino</label>
-            </p>
+                <input type="radio" name="Sexo"><span>Feminino</span>
+                <input type="radio" name="Sexo"><span>Masculino</span>
+                </div>
 
-            <p>
+            <div>
                 <label>Aonde você conheceu a Devaria?</label>
                 <select name="conheceu">
                     <option selected>Youtube</option>
@@ -56,16 +59,16 @@
                     <option>Google</option>
                     <option>Outros</option>
                 </select>
-            </p>
-                <p>
+            </div>
+                <div>
                     <input type="checkbox" name="Aceite"/>
-                    <label>Aceito receber novidades da Devaria</label>
-                </p>
+                    <span>Aceito receber novidades da Devaria</span>
+                </div>
 
-                <p>
+                <div>
                     <input type="submit" name="Enviar" value="Enviar">
                     <input type="reset" name="Limpar" value="Limpar">
-                </p>
+                </div>
         </form>
     </main>
     <footer>

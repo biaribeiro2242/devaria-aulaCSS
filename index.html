@@ -8,6 +8,7 @@
     <meta http-equiv="Refresh" content="300"/>
     <link rel="stylesheet" href="public/css/index.css">
     <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/footer.css">
     <link rel="stylesheet" href="public/css/global.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Olá, Mundo!</title>
@@ -26,9 +27,10 @@
                 <li><a href="devStars.html">DevStars</a></li>
             </ul>
         </nav>
-        <main>
+    </header> 
+        <main class="text-center">
 
-        <h1 class="title">Olá, Mundo! Essa é a minha primeira página na Web!</h1>
+        <h1 class="title ">Olá, Mundo! Essa é a minha primeira página na Web!</h1>
 
             <section class="cover-container">
                 <figure>
@@ -42,13 +44,16 @@
                 <div><iframe width="560" height="315" src="https://www.youtube.com/embed/tuyLJyS0xEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             </section>
         -->
-            <video width="320" height="240" controls="controls">
-                <source src="public/vídeos/video-programação.mp4" type="video/mp4">
-            </video>
+            <section class="section-video">
+                <video width="320" height="240" controls="controls">
+                    <source src="public/vídeos/video-programação.mp4" type="video/mp4">
+                </video>
+            </section>
+           
         </main>
-            <section>
-            <h3>Para que os <abbr title="Developers">Devs</abbr> fiquem sabendo, utilizamos <abbr title="Microsoft">MS</abbr>Azure</h3>
-            <blockquote cite="https://azure.microsoft.com/pt-br/solutions/">Resolva os problemas de negócios com combinações comprovadamene eficientes de produtos e serviços do Azure. Introdução à documentação a às arquiteturas de exemplo.</blockquote>
+            <section class="section-azure">
+            <h3 class="title text-center">Para que os <abbr title="Developers">Devs</abbr> fiquem sabendo, utilizamos <abbr title="Microsoft">MS</abbr>Azure</h3>
+            <blockquote class="text-justify" cite="https://azure.microsoft.com/pt-br/solutions/">Resolva os problemas de negócios com combinações comprovadamene eficientes de produtos e serviços do Azure. Introdução à documentação a às arquiteturas de exemplo.</blockquote>
             </section>
         <footer>
             <section>
@@ -56,7 +61,7 @@
                 <span>Conheça nosso canal no Youtube</span>
             </section>
         </footer>
-    </header>
+    
     
 </body>
 </html>
